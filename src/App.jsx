@@ -6,7 +6,9 @@ import Footer from "./components/footer/Footer"
 import Skills from "./components/skills/Skills"
 import Projects from "./components/projects/Projects"
 
+
 const App = () => {
+ 
   return (
     <Router>
         <Routes>

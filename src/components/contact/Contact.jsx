@@ -1,9 +1,7 @@
 import './contact.css'
 import { useState } from 'react';
-import { Resend } from 'resend';
-import {Email} from "../../emails/Email"
-
-
+// import { Resend } from 'resend';
+// import {Email} from "../../emails/Email"
 
 const Contact = () => {
   const [email,setEmail] = useState("");
@@ -11,18 +9,18 @@ const Contact = () => {
   const [message,setMessage] = useState("");
 
   // const emailHtml = render(<Email email={email} contactNo={contactNo} message={message} />);
-  const resend = new Resend('re_7YSQMwKq_9H69NpfqBiejHQtCpYjuKvEM');
+//   const resend = new Resend('re_7YSQMwKq_9H69NpfqBiejHQtCpYjuKvEM');
 
 
-const handleSend = async()=>{
-await resend.sendEmail({
-    from: email,
-    to: 'awea60505@gmail.com',
-    subject: 'Contact you through portfolio',
-    react: <Email email={email} contactNo={contactNo} message={message} />,
-  });
+// const handleSend = async()=>{
+// await resend.sendEmail({
+//     from: email,
+//     to: 'awea60505@gmail.com',
+//     subject: 'Contact you through portfolio',
+//     react: <Email email={email} contactNo={contactNo} message={message} />,
+//   });
 
-}
+// }
 
 //react: <Email email={email} contactNo={contactNo} message={message} />,
 
@@ -66,7 +64,7 @@ await resend.sendEmail({
               </div>
               <div class="app-form-group buttons">
                 <button class="app-form-button">CANCEL</button>
-                <button class="app-form-button" onClick={handleSend}>SEND</button>
+                <button class="app-form-button">SEND</button>
               </div>
             </div>
           </div>

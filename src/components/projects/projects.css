@@ -1,5 +1,7 @@
 .projectsContainer{
-    margin: 30px auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .projects{

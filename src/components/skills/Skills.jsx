@@ -11,8 +11,8 @@ import next from "../../images/nextjs-removebg-preview.png"
 
 const Skills = () => {
   return (
-   <div style={{ height:'100%',maxWidth:'90%',margin:'0 auto' }}>
-   <h2 style={{ marginLeft:'35px',fontSize:'34px' }}>Trained Languages & Skills</h2>
+   <div style={{ height:'100%',maxWidth:'90%',marginLeft:'70px' }}>
+   <h2 style={{ marginLeft:'50px',fontSize:'34px' }}>Trained Languages & Skills</h2>
    <div className="sphere" ><img src={react} alt=""/></div>
    <div className="sphere"><img src={vue} alt=""/></div>
    <div className="sphere"><img src={php} alt=""/></div>

@@ -36,8 +36,8 @@ const Navbar = ({
             {/* <div className="nameBall">MM <i class="fa-regular fa-moon"></i> <i class="fa-solid fa-sun"></i></div> */}
             <div className="socialLinks">
                 <a href="https://twitter.com/maung1373" target="_blank"  rel="noreferrer" className="link"><i class="fa-brands fa-x-twitter" style={{ color: "#ffffff" }}></i></a>
-                <a href="https://twitter.com/maung1373" className="link"><i class="fa-brands fa-facebook" style={{ color: "#ffffff" }}></i></a>
-                <a href="https://twitter.com/maung1373" className="link"><i class="fa-brands fa-github" style={{ color: "#ffffff" }}></i></a>
+                <a href="https://www.facebook.com/moe.p.mg.148/" className="link"><i class="fa-brands fa-facebook" style={{ color: "#ffffff" }}></i></a>
+                <a href="https://github.com/maung129/" className="link"><i class="fa-brands fa-github" style={{ color: "#ffffff" }}></i></a>
             </div>
         </div>
     </div>
