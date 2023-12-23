@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+.herosection{
+    display: flex;
+    align-items: center;
+    gap:30px
+}
+
+.item{
+    flex: 1;
+    margin-top: 20px;
+}
+
+.heroTitle{
+    font-size: 30px;
+}
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 55px;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  margin-right: 3px;
+}
+
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+.heroText{
+    font-size: 20px;
+    color: rgba(252, 245, 245, 0.9);
+    margin-top: 80px;
+    max-width: 400px;
+    background-color: rgba(252, 245, 245, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+    animation: move 3s infinite ease alternate;
+}
+
+@keyframes move{
+   
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+
+.resume{
+    color: black;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-right: 15px;
+    max-width: fit-content;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.resume:hover{
+    color:whitesmoke;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    background-color: transparent;
+    width: max-content;
+    
+}
+
+.btn{
+    color:whitesmoke;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    background-color: transparent;
+    width: max-content;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    color: black;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-right: 15px;
+    max-width: fit-content;
+    transition: all 0.3s ease;
+}
+
+.btnGroup{
+    display: flex;
+    align-items: center;
+    gap:20px
+}
+
+
+.image{
+    width:100%;
+    height:20%
+}
+
+hr{
+    opacity: 0.2;
+    
+}
+
+span{
+    cursor: pointer;
+}
+
+

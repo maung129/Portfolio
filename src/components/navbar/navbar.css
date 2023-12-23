@@ -1,0 +1,75 @@
+.navContainer{
+    margin: 0;
+    padding: 20px;
+    height: 52px;
+    max-width: 100%;
+    box-shadow: 0px 1px 2px 1px rgba(250, 248, 248, 0.1);
+  
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.title{
+    transition:all 0.2s ease;
+    margin-right: 10px;
+}
+
+.title:hover{
+    color: rgba(255, 255, 255, 0.7);
+    transform: scale(0.9);
+}
+
+.link{
+    font-size: 28px;
+    margin-right: 10px;
+    transition:all 0.2s ease;
+}
+
+.link:hover{
+    color: rgba(255, 255, 255, 0.7);
+    transform: scale(0.9);
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navbar{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+.nameBall{
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    padding: 13px;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 700;
+   transform: translateX(-100px);
+   cursor: pointer;
+}
+
+.socialLinks{
+    display: flex;
+    gap:20px;
+    align-items: center;
+   
+}
+
+.fa-moon,
+.fa-sun{
+    font-size: 17px;
+}

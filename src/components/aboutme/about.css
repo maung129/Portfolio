@@ -1,0 +1,46 @@
+.about{
+ 
+    margin-top: 10px;
+    padding: 20px 20px;
+    
+}
+
+.aboutContainer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+   
+}
+
+.quote{
+    text-align: center;
+    font-size: 43px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.item{
+    flex: 1;
+   
+}
+
+.item.text{
+    background-color: whitesmoke;
+    padding: 15px;
+    color: black;
+    font-size: 19px;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.8);
+    transition: all 0.4s ease-in-out;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+    margin-top: 30px;
+}
+
+.item .text:hover{
+    background-color: transparent;
+    color:whitesmoke;
+    font-size: 18px;
+    transform: scale(1.01);
+}
+
